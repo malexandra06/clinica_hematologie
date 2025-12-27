@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { Calendar, Upload, FileText, Users, Clock, CheckCircle, XCircle, User, LogOut, Home, AlertCircle, Download, Plus, ChevronRight, Pill, Stethoscope, Droplets, Leaf, X, Activity, Bell, TrendingUp, MessageCircle, Send, Bot, Sparkles } from 'lucide-react';
 
-const API_URL = 'http://localhost:8000';
+const API_URL = import.meta.env.VITE_API_URL;
 
 const api = {
   setToken: (token) => localStorage.setItem('token', token),
