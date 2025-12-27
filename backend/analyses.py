@@ -53,7 +53,7 @@ def generate_ai_recommendations(class_name: str, confidence: float) -> str:
             return get_default_recommendations(class_name)
         
         genai.configure(api_key=api_key)
-        model = genai.GenerativeModel('gemini-pro')
+        model = genai.GenerativeModel('gemini-1.5-flash')
         
         # Prompt carefully crafted to avoid medical advice restrictions
         prompt = f"""Ești un consultant de nutriție și stil de viață sănătos. 
