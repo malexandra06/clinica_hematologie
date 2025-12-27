@@ -24,7 +24,7 @@ try:
     print(f"Looking for model at: {MODEL_PATH}")
     print(f"Model exists: {MODEL_PATH.exists()}")
 
-    ml_model = load_model("model.h5", compile=False)
+    ml_model = load_model("model.h5")
     print("ML model loaded successfully")
 
 except Exception as e:
