@@ -13,14 +13,24 @@ from backend import schemas
 
 router = APIRouter(prefix="/api/analyses", tags=["Blood Analyses"])
 
-# ML Model loading (optional)
+from pathlib import Path
+from tensorflow.keras.models import load_model
+
+BASE_DIR = Path(__file__).resolve().parents[2]
+MODEL_PATH = BASE_DIR / "model.h5"
+
+print("Looking for model at:", MODEL_PATH)
+print("Model exists:", MODEL_PATH.exists())
+
 try:
-    from tensorflow.keras.models import load_model
-    ml_model = load_model('model.h5')
+    ml_model = load_model(MODEL_PATH, compile=False)
     print("ML model loaded successfully")
 except Exception as e:
+    import traceback
+    print("ML model FAILED to load")
+    traceback.print_exc()
     ml_model = None
-    print(f"Warning: ML model not loaded - {e}")
+
 
 def preprocess_image(image: Image.Image) -> np.ndarray:
     """Preprocess image for ML model"""
