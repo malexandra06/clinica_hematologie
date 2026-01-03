@@ -51,11 +51,6 @@ hemoclinic/
 │   ├── tailwind.config.js
 │   └── vite.config.js
 │
-├── database/
-│   ├── schema.sql              # Table creation scripts
-│   └── seed_data.sql           # Test data
-│
-├── API.md                      # API documentation
 └── README.md
 ```
 
@@ -237,17 +232,6 @@ CREATE TABLE prescriptions (
 );
 ```
 
-## Test Accounts
-
-| Role | Email | Password |
-|------|-------|----------|
-| Doctor | dr.popescu@clinica.ro | 12345678 |
-| Doctor | dr.ionescu@clinica.ro | 12345678 |
-| Doctor | dr.stanescu@clinica.ro | 12345678 |
-| Patient | ion.vasile@email.com | 12345678 |
-| Patient | elena.dumitrescu@email.com | 12345678 |
-| Patient | ana.popa@email.com | 12345678 |
-
 ## Security Features
 
 * **JWT Authentication:** Secure token-based auth with 7-day expiration
@@ -255,29 +239,6 @@ CREATE TABLE prescriptions (
 * **Password Hashing:** bcrypt for secure password storage
 * **Input Validation:** Server-side validation with Pydantic
 * **CORS Protection:** Configured allowed origins
-
-## API Documentation
-
-* [API.md](API.md) - Complete API reference with all endpoints
-
-## Deployment
-
-### Database (Supabase)
-1. Create new project at supabase.com
-2. Run `schema.sql` in SQL Editor
-3. Run `seed_data.sql` for test data
-4. Copy connection string from Settings > Database
-
-### Backend (Render)
-1. Connect GitHub repository
-2. Set environment variables (DATABASE_URL, SECRET_KEY, GEMINI_API_KEY)
-3. Build command: `pip install -r requirements.txt`
-4. Start command: `uvicorn main:app --host 0.0.0.0 --port $PORT`
-
-### Frontend (Vercel)
-1. Connect GitHub repository
-2. Framework preset: Vite
-3. Update API_URL to deployed backend URL
 
 ## Future Improvements
 
@@ -288,7 +249,3 @@ CREATE TABLE prescriptions (
 * Advanced analytics dashboard
 * Google/Outlook calendar integration
 * Mobile app (React Native)
-
-## About
-
-Hematology clinic management platform with ML-powered blood analysis and AI recommendations.
