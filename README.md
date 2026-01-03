@@ -5,6 +5,8 @@
 ![FastAPI](https://img.shields.io/badge/FastAPI-0.100-009688?logo=fastapi)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-15-336791?logo=postgresql)
 
+Click on this link to view the application: https://clinica-hematologie-frontend.onrender.com/
+
 A full-stack medical platform for hematology clinics featuring ML-powered blood analysis, AI-generated nutritional recommendations, intelligent appointment scheduling, and automated PDF prescription generation.
 
 ### Patient Features
