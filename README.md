@@ -9,6 +9,59 @@ Click on this link to view the application: https://clinica-hematologie-frontend
 
 A full-stack medical platform for hematology clinics featuring ML-powered blood analysis, AI-generated nutritional recommendations, intelligent appointment scheduling, and automated PDF prescription generation.
 
+## Screenshots
+
+### Autentificare
+
+#### Login
+![Pagina de autentificare](poze/login.png)
+
+#### Înregistrare
+![Pagina de înregistrare](poze/sign_in.png)
+
+---
+
+### Portal Pacient
+
+#### Dashboard
+![Dashboard pacient](poze/portal_pacient.png)
+
+#### Încărcare Analiză
+![Încărcare analiză nouă](poze/poza_1.png)
+
+#### Rezultat Analiză
+![Rezultat analiză cu clasificare și recomandări](poze/poza_2.png)
+
+#### Programări
+![Programările pacientului](poze/programari.png)
+
+#### Rețete
+![Rețetele pacientului](poze/retete.png)
+
+---
+
+### Portal Doctor
+
+#### Dashboard Programări
+![Programări doctor](poze/portal_doctor.png)
+
+#### Lista Pacienți
+![Analize pacienți](poze/pacienti.png)
+
+#### Rețete Emise
+![Rețetele emise de doctor](poze/retete_doctor.png)
+
+#### Program de Lucru
+![Setare program de lucru](poze/program_lucru.png)
+
+---
+
+### Asistent Virtual
+
+![Chatbot asistent virtual](poze/asistent.png)
+
+---
+
 ### Patient Features
 
 * **Blood Analysis Upload:** Upload microscopy images for automatic ML classification
