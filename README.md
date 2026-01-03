@@ -11,54 +11,54 @@ A full-stack medical platform for hematology clinics featuring ML-powered blood 
 
 ## Screenshots
 
-### Autentificare
+### Authentication
 
 #### Login
-![Pagina de autentificare](poze/login.png)
+![Login page](poze/login.png)
 
-#### Înregistrare
-![Pagina de înregistrare](poze/sign_in.png)
+#### Sign Up
+![Sign up page](poze/sign_in.png)
 
 ---
 
-### Portal Pacient
+### Patient Portal
 
 #### Dashboard
-![Dashboard pacient](poze/portal_pacient.png)
+![Patient dashboard](poze/portal_pacient.png)
 
-#### Încărcare Analiză
-![Încărcare analiză nouă](poze/poza_1.png)
+#### Upload Analysis
+![Upload new blood analysis](poze/poza_1.png)
 
-#### Rezultat Analiză
-![Rezultat analiză cu clasificare și recomandări](poze/poza_2.png)
+#### Analysis Result
+![Analysis result with classification and recommendations](poze/poza_2.png)
 
-#### Programări
-![Programările pacientului](poze/programari.png)
+#### Appointments
+![Patient appointments](poze/programari.png)
 
-#### Rețete
-![Rețetele pacientului](poze/retete.png)
-
----
-
-### Portal Doctor
-
-#### Dashboard Programări
-![Programări doctor](poze/portal_doctor.png)
-
-#### Lista Pacienți
-![Analize pacienți](poze/pacienti.png)
-
-#### Rețete Emise
-![Rețetele emise de doctor](poze/retete_doctor.png)
-
-#### Program de Lucru
-![Setare program de lucru](poze/program_lucru.png)
+#### Prescriptions
+![Patient prescriptions](poze/retete.png)
 
 ---
 
-### Asistent Virtual
+### Doctor Portal
 
-![Chatbot asistent virtual](poze/asistent.png)
+#### Appointments Dashboard
+![Doctor appointments](poze/portal_doctor.png)
+
+#### Patient List
+![Patient analyses](poze/pacienti.png)
+
+#### Issued Prescriptions
+![Prescriptions issued by doctor](poze/retete_doctor.png)
+
+#### Work Schedule
+![Set work schedule](poze/program_lucru.png)
+
+---
+
+### Virtual Assistant
+
+![Virtual assistant chatbot](poze/asistent.png)
 
 ---
 
