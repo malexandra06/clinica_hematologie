@@ -295,21 +295,6 @@ CREATE TABLE prescriptions (
 * **Input Validation:** Server-side validation with Pydantic
 * **CORS Protection:** Configured allowed origins
 
-## 💡 AI-Assisted Development & Best Practices
-
-During the development of HEMOCLINIC, I leveraged AI tools (such as Google Gemini,Claude) not just as a code generator, but as a strategic development partner. Here are the key methodologies used:
-
-### 🛠️ Strategic Debugging & Error Resolution
-* **Context-Aware Debugging**: Instead of generic queries, I provided the AI with raw error logs directly from the FastAPI terminal. This allowed for rapid refactoring and precise resolution of complex validation conflicts.
-* **Deployment Roadmap**: I utilized AI to architect a step-by-step deployment plan, covering PostgreSQL database configuration and the simultaneous deployment of the FastAPI backend and React frontend to cloud platforms.
-
-### 🧩 Hybrid Development Workflow
-* **Prototyping by Extension**: My workflow was a hybrid one: I manually designed the core logic for initial entities (e.g., the User model), then tasked the AI to generate subsequent Pydantic schemas and boilerplate models based on those established patterns.
-* **The "Micro-Task" Strategy**: I learned that AI precision increases significantly when tasks are decomposed. Instead of requesting entire modules, I provided small, specific requirements (e.g., a single calculation function), which minimized hallucinations and debugging time.
-
-### 📖 Active Learning & Deep Understanding
-* **Logic over Syntax**: I didn't just copy-paste generated code. I required the AI to explain the underlying logic behind critical integrations—such as the Google Gemini API for nutrition—to ensure I fully understood the medical recommendation engine's internal workings.
-
 ## Future Improvements
 
 * Email notifications for appointments
